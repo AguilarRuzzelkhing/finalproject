@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BMW M4 Competition</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #000000, #000000);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: #ff4d6d;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #f30430;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.header {
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+
+
+.fade {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+
+<body class="fade center">
+  <h1>BMD M4 Competition</h1>
+  <img src="c:\Users\ADMIN\OneDrive\ドキュメント\b93c236bb78a4238244d4dec06641522_1.jpg"
+   width="50%">
+  <h2>The BMW M4 Competition is a high-performance sports coupe (G82) featuring a 3.0L twin-turbo inline- six engine (S58), delivering up to 530 hp and 650 Nm of torque. Known for its aggressive styling, rapid 0- 100 km/h acceleration (3.5s or faster), and available xDrive all-wheel drive, it acts as a track-ready daily driver with sharp, precise handling.</h2>
+
+
+  <a href="bmw.html" class="btn">Back</a>
+</body>
+</html>

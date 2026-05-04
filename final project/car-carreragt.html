@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Porsche Carrera GT</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ff0000, #9e9e97);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: #ff4d6d;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #f30430;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.header {
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+
+
+.fade {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+
+<body class="fade center">
+  <h1>Porsche Carrera GT</h1>
+  <img src="c:\Users\ADMIN\OneDrive\ドキュメント\66d876b75234287be97b7335_184A7015.jpg"
+   width="50%" height="60%">
+  <h2>The Porsche Carrera GT (Type 980) is a 2003-2006 mid-engine supercar powered by a 5.7-liter naturally aspirated V10 engine, producing 612 PS (450 kW) and 590 Nm of torque. Famed for its 6-speed manual transmission and analog driving experience, it accelerates from 0-100 km/h in 3.9 seconds and exceeds 330 km/h, with only 1,270 units produced.</h2>
+
+
+  <a href="porsche.html" class="btn">Back</a>
+</body>
+</html>

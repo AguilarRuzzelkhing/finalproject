@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corvette ZR-1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #9e9e97, #000000);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: #ff4d6d;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #f30430;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.header {
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+
+
+.fade {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+
+<body class="fade center">
+  <h1>Corvette ZR-1</h1>
+  <img src="c:\Users\ADMIN\OneDrive\ドキュメント\1990_chevrolet_corvette-zr-1_201-27334.jpg"
+   width="50%" height="60%">
+  <h2>The 1990 Corvette ZR-1, nicknamed "King of the Hill," debuted in 1989 with a 375-horsepower 5.7L LT5 V8 engine designed with Lotus and built by Mercury Marine. It boasted 32 valves, double overhead cams, a 6-speed manual transmission, and widened rear bodywork for massive tires. Only 3,000 were built in the first year, capable of 0--60 mph in 4.5 seconds.</h2>
+
+
+  <a href="corvette.html" class="btn">Back</a>
+</body>
+</html>

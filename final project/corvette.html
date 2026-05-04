@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corvette</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #aa0202, #1e1e1f);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: #ff4d6d;
+  color: rgb(247, 244, 244);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #9e6671;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.card {
+  background: linear-gradient(135deg, #aa0202, #1e1e1f);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+
+.card img {
+  width: 60%;
+  height: 70%;
+  border-radius: 15px;
+}
+
+
+.header {
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+
+
+.fade {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+
+<body class="fade">
+<h1 class="header">Corvette Cars</h1>
+
+<div class="grid">
+  <a href="car-c6.html" class="card">
+    <img src="c:\Users\ADMIN\OneDrive\ドキュメント\mGR0312_1024x1024.jpeg">
+    <h2>CORVETTE C6</h2>
+  </a>
+  <a href="car-c7.html" class="card">
+    <img src="c:\Users\ADMIN\OneDrive\ドキュメント\k0ad7goo9db41.jpg">
+    <h2>CORVETTE C7</h2>
+  </a>
+  <a href="car-zr1.html" class="card">
+    <img src="c:\Users\ADMIN\OneDrive\ドキュメント\1990_chevrolet_corvette-zr-1_201-27334.jpg">
+    <h2>CORVETTE ZR-1</h2>
+  </a>
+</div>
+
+<a href="american.html" class="btn">Back</a>
+</body>
+</html>

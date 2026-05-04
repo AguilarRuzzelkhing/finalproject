@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pick a race of your choosing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ac15f1, #3506e0);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: #ff4d6d;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #a8364b;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.card {
+  background: linear-gradient(135deg, #ac15f1, #3506e0);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(243, 243, 243);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.header {
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+
+
+.fade {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+
+<body class="fade">
+<h1 class="header">Pick a race of your choosing.</h1>
+
+<div class="grid">
+  <a href="american.html" class="card"><h1>AMERICAN</h1>
+    <p>V8 Demons</p>
+  </a>
+  <a href="german.html" class="card"><h1>GERMAN</h1>
+    <p>Speed over Comfort</p>
+  </a>
+  <a href="japanese.html" class="card"><h1>JAPANESE</h1>
+    <p>JDM Legends</p>
+  </a>
+  <a href="italian.html" class="card"><h1>ITALIAN</h1>
+    <p>Exotic Beasts</p>
+  </a>
+
+</div>
+
+<a href="carhub.html" class="btn">Back</a>
+</body>
+</html>

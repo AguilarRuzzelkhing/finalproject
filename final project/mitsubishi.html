@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mitsubishi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ebebf0, #35353a);
+  color: white;
+  min-height: 100vh;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: #ff4d6d;
+  color: rgb(247, 244, 244);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #9e6671;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.card {
+  background: linear-gradient(135deg, #ebebf0, #35353a);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255,255,255,0.3);
+}
+
+
+.card img {
+  width: 60%;
+  height: 70%;
+  border-radius: 15px;
+}
+
+
+.header {
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
+
+
+.fade {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+
+<body class="fade">
+<h1 class="header">Mitsubishi Cars</h1>
+
+<div class="grid">
+  <a href="car-evo6.html" class="card">
+    <img src="c:\Users\ADMIN\Downloads\761d0d14-d2ba-439d-b90d-2eb2504302ca.jpg">
+    <h2>Lancer Evolution VI</h2>
+  </a>
+  <a href="car-evo9.html" class="card">
+    <img src="c:\Users\ADMIN\OneDrive\ドキュメント\HD-wallpaper-mitsubishi-evo-white-evo-mitsubishi-evo-9-car_1.jpg">
+    <h2>Lancer Evolution IX</h2>
+  </a>
+  <a href="car-eclipse.html" class="card">
+    <img src="c:\Users\ADMIN\Downloads\a02fca4b-a434-40e6-a2be-d4c2fb1c5e8a.jpg">
+    <h2>Lancer Eclipse</h2>
+  </a>
+</div>
+
+<a href="brands.html" class="btn">Back</a>
+</body>
+</html>
